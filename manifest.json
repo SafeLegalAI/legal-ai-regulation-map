@@ -1,0 +1,17 @@
+{
+  "dataset": "SafeLegalAI Legal AI Regulation Map",
+  "canonical": "https://safelegalai.com/regulation",
+  "source": "https://safelegalai.com/regulation/map.json",
+  "catalogue": "https://safelegalai.com/datasets",
+  "publisher": "Cognesio LLP",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "lastChecked": "2026-09-04",
+  "synced": "2026-09-08",
+  "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
+  "tables": {
+    "countries": 130,
+    "cells": 3299
+  },
+  "contentSha256": "46c36e137db9e934111b80f99049ee985e5e137bf0802a768ca1b9e7af7072cf"
+}
