@@ -41,7 +41,7 @@ configs:
 
 **What do the rules on AI in legal practice say, country by country, across 20 categories?**
 
-130 countries and entities · 102 with at least one rule · 20 categories · 3299 scored cells · last checked 2026-09-04 · synced from [safelegalai.com](https://safelegalai.com) on 2026-09-08.
+130 countries and entities · 102 with at least one rule · 20 categories · 3299 scored cells · last checked 2026-09-16 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
 
 Countries and supranational entities scored across 20 categories of rule on AI in legal practice — disclosure in filings, verification duty, judicial use, AI-decision prohibition, evidence admissibility, client confidentiality, bar guidance, sanctions record and more. Each cell carries a status (binding · guidance · proposed · case-law · none · unclear), a note naming the document, sources and its own last-checked date. Records marked `provisional` were AI-researched under the published taxonomy rules and await editor re-verification; they are labelled as such everywhere on the site.
 
@@ -87,15 +87,15 @@ ds = load_dataset("safelegalaidata/legal-ai-regulation-map", "countries")
 
 ## Cite
 
-> SafeLegalAI (published by Cognesio LLP), "Legal AI Regulation Map", safelegalai.com, accessed 2026-09-08. https://safelegalai.com/regulation — data: CC BY 4.0.
+> SafeLegalAI (published by SafeLegalAI), "Legal AI Regulation Map", safelegalai.com, accessed 2026-10-05. https://safelegalai.com/regulation — data: CC BY 4.0.
 
 ```bibtex
-@dataset{safelegalai_legal_ai_regulation_map_2026_09_08,
+@dataset{safelegalai_legal_ai_regulation_map_2026_10_05,
   title        = {Legal AI Regulation Map},
-  author       = {{SafeLegalAI (Cognesio LLP)}},
+  author       = {{SafeLegalAI (SafeLegalAI)}},
   year         = {2026},
   url          = {https://safelegalai.com/regulation},
-  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-map. Data CC BY 4.0. Last checked 2026-09-04.}
+  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-regulation-map. Data CC BY 4.0. Last checked 2026-09-16.}
 }
 ```
 
@@ -103,11 +103,11 @@ Cite the primary source as the authority and this dataset as the structured reco
 
 ## Licence
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: **SafeLegalAI (safelegalai.com), published by Cognesio LLP** with a link to https://safelegalai.com/regulation. Primary sources keep their own licences and copyright.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: **SafeLegalAI (safelegalai.com), published by SafeLegalAI** with a link to https://safelegalai.com/regulation. Primary sources keep their own licences and copyright.
 
 ## Disclaimer and notices
 
-**Provided "as is", without warranty of any kind** — the CC BY 4.0 licence excludes all warranties and limits liability (section 5), and those exclusions apply to this dataset. **Not legal advice**; no lawyer–client relationship arises from using it. Cognesio LLP is not a law firm. SafeLegalAI records findings made by courts, regulators and vendors' own published pages; it makes no findings of its own, and the linked official documents are the record. Editorial classifications (status labels, requirement codes, "documented yes/no/not disclosed") are opinions about documents, expressed in good faith; the document prevails. Where a row names a person or organisation, it does so as they appear in a public court document, official publication or their own published material — a fair and accurate report published in good faith and in the public interest; anyone named may reply or request a correction at https://safelegalai.com/report. Product, company, court and regulator names and marks belong to their owners and identify the product or body referred to; no affiliation or endorsement is implied. Full terms and notice-and-takedown: https://safelegalai.com/disclaimer.
+**Provided "as is", without warranty of any kind** — the CC BY 4.0 licence excludes all warranties and limits liability (section 5), and those exclusions apply to this dataset. **Not legal advice**; no lawyer–client relationship arises from using it. SafeLegalAI is not a law firm. SafeLegalAI records findings made by courts, regulators and vendors' own published pages; it makes no findings of its own, and the linked official documents are the record. Editorial classifications (status labels, requirement codes, "documented yes/no/not disclosed") are opinions about documents, expressed in good faith; the document prevails. Where a row names a person or organisation, it does so as they appear in a public court document, official publication or their own published material — a fair and accurate report published in good faith and in the public interest; anyone named may reply or request a correction at https://safelegalai.com/report. Product, company, court and regulator names and marks belong to their owners and identify the product or body referred to; no affiliation or endorsement is implied. Full terms and notice-and-takedown: https://safelegalai.com/disclaimer.
 
 ## Related datasets
 
@@ -125,16 +125,16 @@ Cite the primary source as the authority and this dataset as the structured reco
   "canonical": "https://safelegalai.com/regulation",
   "source": "https://safelegalai.com/regulation/map.json",
   "catalogue": "https://safelegalai.com/datasets",
-  "publisher": "Cognesio LLP",
+  "publisher": "SafeLegalAI",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "lastChecked": "2026-09-04",
-  "synced": "2026-09-08",
+  "lastChecked": "2026-09-16",
+  "synced": "2026-10-05",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
     "countries": 130,
     "cells": 3299
   },
-  "contentSha256": "46c36e137db9e934111b80f99049ee985e5e137bf0802a768ca1b9e7af7072cf"
+  "contentSha256": "6470ee7b0424df265ef24949dc852369d7d40e34e48b3a23c175c00c2dbe83b6"
 }
 ```
