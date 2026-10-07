@@ -7,11 +7,11 @@
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "lastChecked": "2026-09-16",
-  "synced": "2026-10-05",
+  "synced": "2026-10-07",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
     "countries": 130,
     "cells": 3299
   },
-  "contentSha256": "9ad3774d066282edcd6bf5ce7f2d523f7a0a634fdbdfc84299897a900e945fc1"
+  "contentSha256": "f33bec75aeb70579666907d2b977bc83b2fafc25d6d60eb9389cbfa10ccc75d1"
 }

@@ -41,7 +41,7 @@ configs:
 
 **What do the rules on AI in legal practice say, country by country, across 20 categories?**
 
-130 countries and entities · 102 with at least one rule · 20 categories · 3299 scored cells · last checked 2026-09-16 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
+130 countries and entities · 102 with at least one rule · 20 categories · 3299 scored cells · last checked 2026-09-16 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-07.
 
 Countries and supranational entities scored across 20 categories of rule on AI in legal practice — disclosure in filings, verification duty, judicial use, AI-decision prohibition, evidence admissibility, client confidentiality, bar guidance, sanctions record and more. Each cell carries a status (binding · guidance · proposed · case-law · none · unclear), a note naming the document, sources and its own last-checked date. Records marked `provisional` were AI-researched under the published taxonomy rules and await editor re-verification; they are labelled as such everywhere on the site.
 
@@ -87,10 +87,10 @@ ds = load_dataset("safelegalaidata/legal-ai-regulation-map", "countries")
 
 ## Cite
 
-> SafeLegalAI (published by SafeLegalAI), "Legal AI Regulation Map", safelegalai.com, accessed 2026-10-05. https://safelegalai.com/regulation — data: CC BY 4.0.
+> SafeLegalAI (published by SafeLegalAI), "Legal AI Regulation Map", safelegalai.com, accessed 2026-10-07. https://safelegalai.com/regulation — data: CC BY 4.0.
 
 ```bibtex
-@dataset{safelegalai_legal_ai_regulation_map_2026_10_05,
+@dataset{safelegalai_legal_ai_regulation_map_2026_10_07,
   title        = {Legal AI Regulation Map},
   author       = {{SafeLegalAI (SafeLegalAI)}},
   year         = {2026},
@@ -129,12 +129,12 @@ Cite the primary source as the authority and this dataset as the structured reco
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "lastChecked": "2026-09-16",
-  "synced": "2026-10-05",
+  "synced": "2026-10-07",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
     "countries": 130,
     "cells": 3299
   },
-  "contentSha256": "9ad3774d066282edcd6bf5ce7f2d523f7a0a634fdbdfc84299897a900e945fc1"
+  "contentSha256": "f33bec75aeb70579666907d2b977bc83b2fafc25d6d60eb9389cbfa10ccc75d1"
 }
 ```
